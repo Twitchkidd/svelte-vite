@@ -12,7 +12,8 @@
 <ul>
 	<!-- #each dogs as dog -->
 	<!-- #each dogs as { name, temperment }, i -->
-	<!-- if the list item was a component that got props in ... start from keys and go back over everything from there oh no I only hit like a quarter of the api lol -->
+	<!-- if the list item was a component that got props in ... start from keys and go back over everything from there -->
+	<!-- 'keyed props' -->
 	{#each dogs as { name, temperment }, i (i)}
 		<li>{i + 1}: {name} the {temperment}</li>
 	{/each}

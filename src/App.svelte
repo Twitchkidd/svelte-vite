@@ -5,6 +5,7 @@
 	import Counter from './lib/Counter.svelte';
 	import Numbers from './lib/Numbers.svelte';
 	import Dogs from './lib/Dogs.svelte';
+	import Random from './lib/Random.svelte';
 </script>
 
 <main>
@@ -15,6 +16,7 @@
 	<Counter />
 	<Numbers />
 	<Dogs />
+	<Random />
 	<p>
 		Visit <a href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte
 		apps.
